@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '@/pages/login/Login'
+import Forget from '@/pages/login/Forget'
+import Registered from '@/pages/login/Registered'
+import Home from '@/pages/home/index'
 
 Vue.use(VueRouter)
 
@@ -9,7 +12,20 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Login',
     component: Login
-  }
+  },{
+      path: '/Forget',
+      name: 'Forget',
+      component: Forget
+    },{
+      path: '/Registered',
+      name: 'Registered',
+      component: Registered
+  },
+    {
+      path: '/Home',
+      name: 'Home',
+      component: Home
+    }
 ]
 
 const router = new VueRouter({
