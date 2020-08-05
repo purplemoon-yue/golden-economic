@@ -1,6 +1,6 @@
 const homeRouter = {
-    path: 'home',
-    component: () => import('@/views/home')
+  path: 'home',
+  component: () => import('@/views/home')
 }
 
 export default homeRouter
