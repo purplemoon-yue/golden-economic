@@ -15,7 +15,7 @@
 
 <script>
     export default {
-        name: "Forget",
+        name: "forget",
         data(){
             return {
                 input:''

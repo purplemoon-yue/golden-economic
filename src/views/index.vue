@@ -9,7 +9,7 @@
 <script>
     import AppFooter from '../components/tab/AppFooter'
     export default {
-        name: "Home",
+        name: "home",
         components:{
             AppFooter
         },

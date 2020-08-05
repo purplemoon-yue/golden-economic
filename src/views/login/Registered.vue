@@ -18,7 +18,7 @@
 
 <script>
     export default {
-        name: "Registered",
+        name: "registered",
         data(){
             return {
                 input:''
