@@ -7,7 +7,7 @@
 
 <script>
     export default {
-        name: "Hangqing",
+        name: "hangqing",
     }
 </script>
 
