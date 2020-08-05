@@ -1,6 +1,5 @@
 <template>
     <div>
-        <p>123</p>
         <router-view></router-view>
         <app-footer></app-footer>
     </div>

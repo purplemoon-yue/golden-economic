@@ -28,32 +28,32 @@
                             active: 'wap-home',
                             inactive: 'wap-home-o'
                         },
-                        path: '/Home',
-                        itemName: 'Home'
+                        path: '/home',
+                        itemName: 'home'
                     },{
                         name: '行情',
                         icon: {
                             active: 'wap-home',
                             inactive: 'wap-home-o'
                         },
-                        path: '/Hangqing',
-                        itemName: 'Hangqing'
+                        path: '/hangqing',
+                        itemName: 'hangqing'
                     },{
                         name: '新闻',
                         icon: {
                             active: 'shopping-cart',
                             inactive: 'shopping-cart-o'
                         },
-                        path: '/New',
-                        itemName: 'New'
+                        path: '/new',
+                        itemName: 'new'
                     },{
                         name: '我的',
                         icon: {
                             active: 'manager',
                             inactive: 'manager-o'
                         },
-                        path: '/User',
-                        itemName: 'User'
+                        path: '/user',
+                        itemName: 'user'
                     }
                 ]
             }
